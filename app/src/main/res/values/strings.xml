@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SugarBaby</string>
+    <string name="main_page_title">main</string>
+    <string name="mine_page_title">mine</string>
+    <string name="unknow_name">unknow_name</string>
+    <string name="unknow_MAC">unknow_MAC</string>
+    <string name="start_scan">start_scan</string>
+    <string name="stop_scan">stop_scan</string>
+</resources>
+

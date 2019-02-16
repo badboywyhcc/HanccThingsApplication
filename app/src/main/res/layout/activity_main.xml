@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainactivityid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF"/>
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_device"
+            style="@style/tab_style"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_device_selector"
+            android:text="@string/main_page_title" />
+
+        <RadioButton
+            android:id="@+id/rb_my"
+            style="@style/tab_style"
+            android:drawableTop="@drawable/tab_my_selector"
+            android:text="@string/mine_page_title" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
+

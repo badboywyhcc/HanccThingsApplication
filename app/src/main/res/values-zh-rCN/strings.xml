@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">多宝</string>
+    <string name="main_page_title">主页</string>
+    <string name="mine_page_title">我的</string>
+    <string name="unknow_name">未知名称</string>
+    <string name="unknow_MAC">未知MAC</string>
+    <string name="start_scan">启动</string>
+    <string name="stop_scan">停止</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.example.hancc.hanccbleapplication.hanccustomview.HanccNavigationBar
+        android:id="@+id/hanccnavigationbarmain_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <!-- TODO: Update blank fragment layout -->
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/nextBtn"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:background="#4CD964"-->
+            <!--android:text="下一步"-->
+            <!--android:textColor="#ffff"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

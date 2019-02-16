@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainactivityid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.example.hancc.hanccbleapplication.hanccustomview.HanccNavigationBar
+        android:id="@+id/hanccnavigationbarmain_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <ListView
+            android:id="@+id/bledevices_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:divider="#1000"
+            android:dividerHeight="0.5dp"></ListView>
+        <ProgressBar
+            android:id="@+id/scanBLEDeviceProgressBarID"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/refreshbledeviceslistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/customthemecolor"
+        android:src="@drawable/hanccrefreshicon"
+        />
+</android.support.design.widget.CoordinatorLayout>
